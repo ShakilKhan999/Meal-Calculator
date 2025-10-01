@@ -72,3 +72,17 @@ controller and shows `SplashScreen` as the first screen.
 The app uses `sqflite` for local storage. The database controller is registered in
 `main.dart` using `Get.put(DbController())`. See `lib/controllers/db_controller.dart` for schema and migration details.
 
+## App screenshots
+
+Below are a few screenshots from the app. Paths are relative to the repository root so these will render on GitHub and local viewers.
+
+<p float="left">
+	<img src="assets/app_screenshots/intro.jpeg" alt="Intro screen" width="220" />
+	<img src="assets/app_screenshots/home_screen.jpeg" alt="Home screen" width="220" />
+	<img src="assets/app_screenshots/adding_member_info.jpeg" alt="Adding member info" width="220" />
+	<img src="assets/app_screenshots/calculation.jpeg" alt="Calculation screen" width="220" />
+	<img src="assets/app_screenshots/save_meals.jpeg" alt="Save meals" width="220" />
+</p>
+
+If the images don't display on your platform, ensure the `assets/app_screenshots` folder is present and that the files listed above exist.
+
